@@ -1,0 +1,253 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "ls-white",
+          "color": "#f4f4f4",
+          "name": "La Saphire White"
+        },
+        {
+          "slug": "ls-dark",
+          "color": "#151515",
+          "name": "La Saphire Dark"
+        },
+        {
+          "slug": "ls-gray-100",
+          "color": "#F3F4F6",
+          "name": "La Saphire Gray 100"
+        },
+        {
+          "slug": "ls-gray-200",
+          "color": "#E5E7EB",
+          "name": "La Saphire Gray 200"
+        },
+        {
+          "slug": "ls-gray-300",
+          "color": "#D1D5DB",
+          "name": "La Saphire Gray 300"
+        },
+        {
+          "slug": "ls-gray-400",
+          "color": "#9CA3AF",
+          "name": "La Saphire Gray 400"
+        },
+        {
+          "slug": "ls-gray-500",
+          "color": "#6B7280",
+          "name": "La Saphire Gray 500"
+        },
+        {
+          "slug": "ls-gray-600",
+          "color": "#4B5563",
+          "name": "La Saphire Gray 600"
+        },
+        {
+          "slug": "ls-gray-700",
+          "color": "#374151",
+          "name": "La Saphire Gray 700"
+        },
+        {
+          "slug": "ls-gray-800",
+          "color": "#1F2937",
+          "name": "La Saphire Gray 800"
+        },
+        {
+          "slug": "ls-gray-900",
+          "color": "#1F2937",
+          "name": "La Saphire Gray 900"
+        },
+        {
+          "slug": "ls-primary",
+          "color": "#EF4444",
+          "name": "La Saphire Primary"
+        },
+        {
+          "slug": "ls-accent",
+          "color": "#433800",
+          "name": "La Saphire Accent"
+        },
+        {
+          "slug": "ls-success",
+          "color": "#34D399",
+          "name": "La Saphire Success"
+        },
+        { "slug": "ls-info",
+          "color": "#60A5FA",
+          "name": "La Saphire Info" },
+        {
+          "slug": "ls-warning",
+          "color": "#FB923C",
+          "name": "La Saphire Warning"
+        },
+        {
+          "slug": "ls-danger",
+          "color": "#EC4899",
+          "name": "La Saphire Danger"
+        }
+      ],
+      "background": true,
+      "text": true,
+      "link": true,
+      "custom": true,
+      "duotone": [
+        { "slug": "ls-pink-sunset", "colors": ["#11245e", "#dc4379"], "name": "La Saphire Pink Sunset" }
+      ],
+      "defaultGradients": false,
+      "gradients": [
+        {
+          "slug": "ls-summer-dog",
+          "gradient": "linear-gradient(#a8ff78, #78ffd6)",
+          "name": "La Saphire Summer Dog"
+        }
+      ]
+    },
+    "blocks": {
+      "core/site-title": {
+        "color": {
+          "defaultPalette": true,
+          "palette": [
+            {
+              "slug": "ls-primary",
+              "color": "#EF4444",
+              "name": "La Saphire Primary"
+            }
+          ],
+          "link": true,
+          "custom": false,
+          "gradients": [],
+          "customGradient": false
+        },
+        "typography": {
+          "fontFamilies": [
+            {
+              "fontFamily": "Pacifico, sans-serif",
+              "slug": "ls-pacifico",
+              "name": "La Saphire Pacifico"
+            }
+          ],
+          "fontSizes": [
+            {"slug": "small", "size": "0.75rem", "name": "Small"},
+            {"slug": "medium", "size": "1.25rem", "name": "Medium"},
+            {"slug": "large", "size": "2.25rem", "name": "Large"},
+            {"slug": "x-large", "size": "3rem", "name": "Extra Large"},
+            {"slug": "gigantic", "size": "3.75rem", "name": "Gigantic"}
+          ]
+        }
+      },
+      "core/cover": {
+        "color": {
+          "duotone": [],
+          "customDuotone": false
+        }
+      },
+      "core/preformatted": {
+        "typography": {
+          "fontSizes": [],
+          "customFontSize": false
+        }
+      }
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Rubik, sans-serif",
+          "slug": "ls-rubik",
+          "name": "La Saphire Rubik"
+        }
+      ],
+      "fontSizes": [
+        {"slug": "small", "size": "0.75rem", "name": "Small"},
+        {"slug": "medium", "size": "1.25", "name": "Medium"},
+        {"slug": "large", "size": "2.25rem", "name": "Large"},
+        {"slug": "x-large", "size": "3rem", "name": "Extra Large"},
+        {"slug": "gigantic", "size": "3.75rem", "name": "Gigantic"}
+      ],
+      "lineHeight": true,
+      "dropCap": true,
+      "fontWeight": true,
+      "fontStyle": true,
+      "letterSpacing": true,
+      "textDecoration": true
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1100px"
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "units": [
+        "px", "rem", "vh", "vw", "%"
+      ],
+      "blockGap": true
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--ls-gray-700)",
+      "background": "var(--wp--preset--color--ls-white)"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--ls-primary)"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "text": "var(--wp--preset--color--ls-dark)",
+          "gradient": "var(--wp--preset--gradient--ls-summer-dog)"
+        }
+      },
+      "core/pullquote": {
+        "border": {
+          "width": "2px",
+          "radius": "10px",
+          "style": "solid",
+          "color": "var(--wp--preset--color--ls-primary)"
+        }
+      },
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--ls-pacifico)"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--ls-rubik)",
+      "fontSize": "16px",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "lineHeight": "inherit",
+      "textDecoration": "none",
+      "textTransform": "none"
+    },
+    "spacing": {
+      "margin": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "padding": {
+        "top": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "left": "0px"
+      },
+      "blockGap": "4rem"
+    }
+  }
+}
